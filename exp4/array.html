@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Compute Sum and Product of an Array of Integers</title>
+	<script>
+		function compute() {
+			// Get the input array from the user
+			const inputArray = document.getElementById("inputArray").value.split(",").map(Number);
+
+			// Compute the sum and product of the array
+			const sum = inputArray.reduce((acc, cur) => acc + cur, 0);
+			const product = inputArray.reduce((acc, cur) => acc * cur, 1);
+
+			// Display the results to the user
+			document.getElementById("outputSum").textContent = `Sum: ${sum}`;
+			document.getElementById("outputProduct").textContent = `Product: ${product}`;
+		}
+	</script>
+</head>
+<body>
+	<label for="inputArray">Enter an array of integers:</label>
+	<input type="text" id="inputArray">
+
+	<button onclick="compute()">Compute</button>
+
+	<p id="outputSum"></p>
+	<p id="outputProduct"></p>
+</body>
+</html>
