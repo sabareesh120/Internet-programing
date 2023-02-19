@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Check Whether a String is an Anagram</title>
+	<script>
+		function isAnagram() {
+			// Get the input strings from the user
+			const str1 = document.getElementById("str1").value.toLowerCase();
+			const str2 = document.getElementById("str2").value.toLowerCase();
+
+			// Check if the strings are the same length
+			if (str1.length !== str2.length) {
+				document.getElementById("output").textContent = "Not an anagram";
+				return;
+			}
+
+			// Sort the strings and compare them
+			const sortedStr1 = str1.split("").sort().join("");
+			const sortedStr2 = str2.split("").sort().join("");
+
+			if (sortedStr1 === sortedStr2) {
+				document.getElementById("output").textContent = "Anagram";
+			} else {
+				document.getElementById("output").textContent = "Not an anagram";
+			}
+		}
+	</script>
+</head>
+<body>
+	<label for="str1">Enter first string:</label>
+	<input type="text" id="str1">
+
+	<label for="str2">Enter second string:</label>
+	<input type="text" id="str2">
+
+	<button onclick="isAnagram()">Check</button>
+
+	<p id="output"></p>
+</body>
+</html>
