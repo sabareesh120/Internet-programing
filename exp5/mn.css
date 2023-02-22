@@ -1,0 +1,140 @@
+.clr
+{
+    background-color: darkblue;
+    color: whitesmoke;
+    border-radius: 25px;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+}
+
+.ad1
+{
+    background-color: grey;
+    margin-left: 0.5%;
+    border-radius: 25px;
+    margin-right: 80%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.ad2
+{
+    background-color: grey;
+    margin-left: 80%;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: -3.5%;
+    color: #ffffff;
+    margin-right: 0.5%;
+}
+
+.main
+{
+    background-color: whitesmoke;
+    margin-left: 22%;
+    padding: 1%;
+    padding-left: 1%;
+    border-radius: 25px;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    margin-right: 22%;
+    border-top: 5%;
+    margin-top: -3.5%;
+}
+
+.ques
+{
+    background-color: darkblue;
+    padding: 1%;
+    color: white;
+    padding-left: 2%;
+    border-radius: 25px;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+.fm
+{
+    background-color: white;
+    border-radius: 25px;
+}
+
+.imp
+{
+    color: red;
+}
+
+.wrn
+{
+    color: red;
+    position: absolute;
+    left: 62%;
+}
+
+.bx
+{    
+    position: absolute;
+    left: 50%;
+}
+
+#r1
+{
+    position: absolute;
+    left: 50%;
+}
+
+.l1
+{
+    margin-left: 0.5%;
+    position: absolute;
+    left: 51%;
+}
+
+.l2
+{
+    margin-left: 6%;
+    position: absolute;
+    left: 50%;
+}
+
+.l3
+{
+    margin-left: 11%;
+    position: absolute;
+    left: 50%;
+}
+
+#r2
+{
+    margin-left: 5%;
+    position: absolute;
+    left: 50%;
+}
+
+.btn
+{
+    position: absolute;
+    left: 50%;
+}
+
+#c1
+{    
+    position: absolute;
+    left: 50%;
+}
+
+#c2
+{    
+    margin-left: 5%;
+    position: absolute;
+    left: 50%;
+}
+
+#c3
+{    
+    margin-left: 10%;
+    position: absolute;
+    left: 50%;
+}
