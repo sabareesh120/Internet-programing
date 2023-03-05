@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Find Word Occurrence</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#searchBtn').click(function() {
+				var sentence = $('#sentence').val();
+				var word = $('#word').val();
+				var regex = new RegExp('\\b' + word + '\\b', 'gi');
+				var count = (sentence.match(regex) || []).length;
+				$('#result').html('The word "' + word + '" occurs ' + count + ' time(s) in the sentence.');
+			});
+		});
+	</script>
+</head>
+<body>
+	<div>
+		<label for="sentence">Enter a sentence:</label>
+		<input type="text" id="sentence">
+	</div>
+	<div>
+		<label for="word">Enter a word to search for:</label>
+		<input type="text" id="word">
+	</div>
+	<button id="searchBtn">Search</button>
+	<div id="result"></div>
+</body>
+</html>
