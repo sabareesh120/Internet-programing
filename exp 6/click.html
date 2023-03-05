@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random List Item</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<style>
+		li {
+			margin-bottom: 10px;
+			padding: 10px;
+			color: white;
+			font-weight: bold;
+			font-size: 20px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<button id="addBtn">Add Random Number</button>
+	<ul id="list"></ul>
+	<script>
+		$(document).ready(function() {
+			$('#addBtn').click(function() {
+				var randomNumber = Math.floor(Math.random() * 10) + 1;
+				var randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+				$('#list').append('<li style="background-color: ' + randomColor + ';">' + randomNumber + '</li>');
+			});
+		});
+	</script>
+</body>
+</html>
