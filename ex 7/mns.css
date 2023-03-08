@@ -1,0 +1,29 @@
+#hd
+{
+    padding: 0.5%;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+#mn
+{
+    margin-left: 15%;
+    padding: 2%;
+    margin-right: 15%;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#bd
+{
+    background-color: #cccccc;
+}
+
+.gts
+{
+    position: absolute;
+    left: 40%;
+}
