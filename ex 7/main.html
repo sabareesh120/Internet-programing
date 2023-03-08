@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Servlet Program</title>
+        <link rel="stylesheet" href="mns.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body id="bd">
+        <div id="hd">
+            <h1>This is the Servlet Web-Application</h1>
+        </div>
+       
+        <div id="mn">
+            <form class="q1" name="fm" action="">
+                <h2> Counting the Number of Vowel Present in the inputs given by User </h2>
+                <input class="gts" type="text" name="gtt" placeholder="Enter Words"><br><br>
+                Click the below button to Calculate the Number of Vowels Present in the Given Words,<br><br>
+                <button class="gts" name="clk" onclick="">Click here</button>
+            </form>
+            <br><br><hr>
+            <form class="q2">
+                <h2>Display a List of Books and Allow user to Sort by Title or Author</h2>
+                Here below we've got the List of Books with their Authors,
+                <p id="lst"></p>
+                <button id="sbb" name="sbbn">Sort by Books</button>&emsp;<button id="sba" name="sban">Sort by Authors</button>
+            </form>
+            <script>
+                let bks = [{Name:"Invisible Man", Author:"Ralph Ellison"}, {Name:"To Kill a Mockingbird", Author:"Harper Lee"},
+                {Name:"The Great Gatsby", Author:"Scott Fitzgerald.F"}, {Name:"Don Quixote", Author:"Miguel de Cervantes"}
+            ,{Name:"Beloved", Author:"Toni Morrison"}];
+            let bkt="",j=0;
+            for(i in bks)
+            {
+                j=j+1;
+                bkt+= "<b>Book - "+j+" : </b>"+bks[i].Name+" by "+bks[i].Author+"<br>";
+            }
+            document.getElementById("lst").innerHTML = bkt;
+            </script>
+        </div>
+    </body>
+</html>
