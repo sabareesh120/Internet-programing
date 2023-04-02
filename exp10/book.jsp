@@ -59,4 +59,4 @@ books.add(new Book("Book 3", "Bob Johnson", "1357908642", 20.50));
       <td>Bob Johnson</td>
       <td>1357908642</td>
       <td>$20.50</td>
-    </tr
+    </tr>
