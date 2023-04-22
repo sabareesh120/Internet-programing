@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product>
+    <name>SMG - 11</name>
+    <price>1200</price>
+    <description>This can Shoot at Impressive Rate.</description>
+    
+  </product>
+  <product>
+    <name>Shovel Launcher</name>
+    <description>Grenade Launchers can tear down anything to Pieces.</description>
+    <price>5000</price>
+  </product>
+  <product>
+    <name>AR - CL</name>
+    <description>One of the Sniper Rifle to Splash Heads.</description>
+    <price>2400</price>
+  </product>
+  <product>
+    <name>M249</name>
+    <description>Unstoppable Machine Gun may never let you Down.</description>
+    <price>4999</price>
+  </product>
+  <product>
+    <name>SPAS - 12</name>
+    <description>Splash off the Nearby Enemies without Fear.</description>
+    <price>3412</price>
+  </product>
+</products>
