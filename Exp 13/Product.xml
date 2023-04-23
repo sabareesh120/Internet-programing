@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<products>
+
+  <product>
+
+    <name>Product A</name>
+
+    <category>Category A</category>
+
+    <price>25.99</price>
+
+    <available>yes</available>
+
+  </product>
+
+  <product>
+
+    <name>Product B</name>
+
+    <category>Category B</category>
+
+    <price>49.99</price>
+
+    <available>yes</available>
+
+  </product>
+
+  <product>
+
+    <name>Product C</name>
+
+    <category>Category A</category>
+
+    <price>75.50</price>
+
+    <available>no</available>
+
+  </product>
+
+  <product>
+
+    <name>Product D</name>
+
+    <category>Category C</category>
+
+    <price>100.00</price>
+
+    <available>yes</available>
+
+  </product>
+
+</products>
